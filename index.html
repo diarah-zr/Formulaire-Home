@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulaire de Connection</title>
+        <link rel="stylesheet" href="./css/main.css">
+    </head>    
+<body>
+    <header>
+        <h1>
+            📜​ Formulaire de Connection
+        </h1>
+    </header>
+    <main>
+        <figure>
+            <figcaption>
+                <h2>
+                    Tu es Developpeur​​​​​💻
+                </h2>
+            </figcaption>
+        </figure>
+    <form method="post" action="traitement.php">
+        <label for="login">Login :</label>
+        <input type="text" id="login" name="login" required><br><br>
+        
+
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required><br><br>
+       
+        <label>
+        <input type="checkbox" name="admin" value="1"> Vous êtes admin
+        </label><br><br>
+
+        <button type="submit">Envoyer</button>
+    </form>
+    </main>
+</body>
+</html>
