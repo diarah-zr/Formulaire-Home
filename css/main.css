@@ -1,52 +1,79 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #119544;
+    font-family:  sans-serif;
+    background-color: #0a8421;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
     margin: 0;
+    padding: 20px;
 }
-h1 {
-    text-align: center;
 
+header {
+    text-align: center;
+    margin-bottom: 20px;
 }
-form {
-    background-color: #5b74ed;
+
+main {
+    background-color: #8bd6eb;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-
-
+    width: 100%;
+    max-width: 400px;
 }
+
+figure {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
 label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     color: #333;
 }
 
 input[type="text"],input[type="password"] {
-    width: 80%;
+    width: 100%;
     padding: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
+
 input[type="checkbox"] {
     margin-right: 10px;
 }
+
 button {
-    width: 50%;
+    width: 100%;
     padding: 10px;
     background-color: #4CAF50;
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1em;
 }
+
 button:hover {
-    background-color: #04182c;
+    background-color: #45a049;
 }
+
 p {
     text-align: center;
+    color: #333;
+    margin-top: 20px;
 }
