@@ -11,11 +11,9 @@
         <h1>📜 Formulaire de Connexion</h1>
     </header>
     <main>
-        <figure>
             <figcaption>
                 <h2>Tu es Développeur 💻</h2>
             </figcaption>
-        </figure>
         <fieldset>
             <legend>Remplissez les champs</legend>
             <form method="post" action="">
