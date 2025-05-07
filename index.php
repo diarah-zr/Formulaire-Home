@@ -11,12 +11,12 @@
         <h1>📜 Formulaire de Connexion</h1>
     </header>
     <main>
-            <figcaption>
+     <figcaption>
                 <h2>Tu es Développeur 💻</h2>
-            </figcaption>
-        <fieldset>
-            <legend>Remplissez les champs</legend>
-            <form method="post" action="">
+        </figcaption>
+          <fieldset>
+    <legend>Remplissez les champs</legend>
+   <form method="post" action="">
                 <label for="login">Login :</label>
                 <input type="text" id="login" name="login" required><br><br>
 
@@ -24,19 +24,20 @@
                 <input type="password" id="password" name="password" required><br><br>
 
                 <label>
-                    <input type="checkbox" name="admin" value="1"> Vous êtes admin
+                 <input type="checkbox" name="admin" value="1"> Vous êtes admin
                 </label><br><br>
 
                 <button type="submit">Envoyer</button>
-            </form>
-            <?php
+     </form>
+ <?php
             if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 if (isset($_POST['login']) && isset($_POST['password'])) {
-                    $admin = isset($_POST['admin']) ? 1 : 0;
-                    echo "<p>Valeur à enregistrer en base : " . $admin . "</p>";
+                  $admin = isset($_POST['admin']) ? 1 : 0;
+                print "<p>Valeur à enregistrer en base : " . $admin . "</p>";
                 } else {
-                    echo "<p>Veuillez remplir tous les champs s'il vous plaît!</p>";
-                }
+
+                    print "<p>Veuillez remplir tous les champs s'il vous plaît!</p>";
+               }
             }
             ?>
         </fieldset>
