@@ -18,14 +18,14 @@
     <legend>Remplissez les champs</legend>
    <form method="post" action="">
                 <label for="login">Login :</label>
-                <input type="text" id="login" name="login" required><br><br>
+                <input type="text" id="login" name="login" required>
 
                 <label for="password">Mot de passe :</label>
-                <input type="password" id="password" name="password" required><br><br>
+                <input type="password" id="password" name="password" required>
 
                 <label>
                  <input type="checkbox" name="admin" value="1"> Vous êtes admin
-                </label><br><br>
+                </label>
 
                 <button type="submit">Envoyer</button>
      </form>
